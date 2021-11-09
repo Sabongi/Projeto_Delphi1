@@ -13,43 +13,43 @@ object Form1: TForm1
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 25
-  object Panel1: TPanel
+  object pnl_principal: TPanel
     Left = 56
-    Top = 16
+    Top = 24
     Width = 553
     Height = 345
     TabOrder = 0
-    object Label1: TLabel
+    object lbl_senha: TLabel
       Left = 248
       Top = 176
       Width = 58
       Height = 25
       Caption = 'Senha'
     end
-    object Label2: TLabel
+    object lbl_login: TLabel
       Left = 248
       Top = 48
       Width = 50
       Height = 25
       Caption = 'Login'
     end
-    object btn_botao: TButton
+    object btn_login: TButton
       Left = 224
       Top = 288
       Width = 121
       Height = 49
       Caption = 'Entrar'
       TabOrder = 0
-      OnClick = btn_botaoClick
+      OnClick = btn_loginClick
     end
-    object Edit1: TEdit
+    object edt_senha: TEdit
       Left = 184
       Top = 224
       Width = 193
       Height = 33
       TabOrder = 1
     end
-    object Edit2: TEdit
+    object edt_login: TEdit
       Left = 184
       Top = 104
       Width = 193

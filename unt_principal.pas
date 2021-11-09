@@ -8,13 +8,13 @@ uses
 
 type
   TForm1 = class(TForm)
-    btn_botao: TButton;
-    Panel1: TPanel;
-    Edit1: TEdit;
-    Label1: TLabel;
-    Label2: TLabel;
-    Edit2: TEdit;
-    procedure btn_botaoClick(Sender: TObject);
+    btn_login: TButton;
+    pnl_principal: TPanel;
+    edt_senha: TEdit;
+    lbl_senha: TLabel;
+    lbl_login: TLabel;
+    edt_login: TEdit;
+    procedure btn_loginClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -28,7 +28,7 @@ implementation
 
 {$R *.dfm}
 
-procedure TForm1.btn_botaoClick(Sender: TObject);
+procedure TForm1.btn_loginClick(Sender: TObject);
 begin
   close
 end;
